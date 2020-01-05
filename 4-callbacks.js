@@ -22,12 +22,27 @@
 //     console.log(data)
 // })
 
-const add = (a, b, callback) => {
+// const add = (a, b, callback) => {
+//     setTimeout(() => {
+//         callback(a + b)
+//     }, 2000)
+// }
+
+// add(1, 4, (sum) => {
+//     console.log(sum) // Should print: 5
+// })
+
+const doWorkCallBack = (x, callback) => {
     setTimeout(() => {
-        callback(a + b)
-    }, 2000)
+        // callback('This is my error!', undefined)
+        callback(undefined, [1,7,3])
+    }, x)
 }
 
-add(1, 4, (sum) => {
-    console.log(sum) // Should print: 5
+doWorkCallBack(2000, (error, result) => {
+    if (error) {
+        return console.log(error)
+    }
+
+    console.log(result)
 })
