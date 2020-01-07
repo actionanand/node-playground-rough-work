@@ -1,0 +1,24 @@
+{
+  "name": "node-playground-rough-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actionanand/node-playground-rough-work.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actionanand/node-playground-rough-work/issues"
+  },
+  "homepage": "https://github.com/actionanand/node-playground-rough-work#readme",
+  "dependencies": {
+    "mongoose": "^5.8.5",
+    "validator": "^12.1.0"
+  }
+}
