@@ -19,6 +19,6 @@
   "homepage": "https://github.com/actionanand/node-playground-rough-work#readme",
   "dependencies": {
     "mongoose": "^5.8.5",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   }
 }
